@@ -2558,7 +2558,7 @@ form .btn.btn-sm {
   position: fixed !important;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
-  background-color: fff;
+  background-color: #fff;
   width: 100%;
   height: 62px;
   bottom: 0;
@@ -7103,6 +7103,48 @@ input[type=color].form-control.is-valid, input[type=color].form-control:valid {
     max-width: 90%;
   }
 }
+
+.bg-pattern{
+  background-image: url("pattern1.jpg");
+  background-size: contain;
+}
+
+.category-1{
+  background-color: white;
+  width: 30%;
+  margin: 0px auto;
+  box-shadow: 5px 5px 50px #000;
+  border-radius: 25px 25px 25px 25px;
+  border-right: 6px solid #ff871d;
+  border-left: 6px solid #ff871d;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.category{
+    background-color: white;
+    width: 30%;
+    margin: 0px auto;
+    box-shadow: 5px 5px 50px #000;
+    border-radius: 25px 25px 25px 25px;
+    border-right: 6px solid #ff871d;
+    border-left: 6px solid #ff871d;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.category-2{
+  background-color: white;
+  width: 40%;
+  margin: 0px auto;
+  box-shadow: 5px 5px 50px #000;
+  border-radius: 25px 25px 25px 25px;
+  border-right: 6px solid #ff871d;
+  border-left: 6px solid #ff871d;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
 @media only screen and (min-width:576px) and (max-width:767px) {
   .video-popup-modal .modal-dialog {
     max-width: 90%;
